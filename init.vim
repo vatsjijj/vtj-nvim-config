@@ -73,10 +73,11 @@ call plug#begin("~/.vim/plugged")
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'cocopon/pgmnt.vim'
   Plug 'dense-analysis/ale'
-  Plug 'vim-airline/vim-airline'
+  Plug 'itchyny/lightline.vim'
+  Plug 'raimondi/delimitmate'
   Plug 'alaviss/nim.nvim'
   Plug 'udalov/kotlin-vim'
 call plug#end()
 
 colorscheme iceberg
-let g:airline_theme='icebergDark'
+let g:lightline = { 'colorscheme': 'icebergDark' }

@@ -23,6 +23,7 @@ set nofixendofline
 
 autocmd BufNewFile,BufRead *.fs,*.fsx,*.fsi set filetype=fsharp
 autocmd BufNewFile,BufRead *.kt,*.udin,*.nos set filetype=kotlin
+autocmd BufNewFile,BufRead *.ebnf set filetype=ebnf
 
 inoremap <silent><expr> <TAB>
   \ pumvisible() ? "\<C-n>" :
@@ -77,6 +78,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'raimondi/delimitmate'
   Plug 'alaviss/nim.nvim'
   Plug 'udalov/kotlin-vim'
+  Plug 'vim-scripts/ebnf.vim'
 call plug#end()
 
 colorscheme iceberg

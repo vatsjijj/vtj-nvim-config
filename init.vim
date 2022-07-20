@@ -24,6 +24,7 @@ set nofixendofline
 autocmd BufNewFile,BufRead *.fs,*.fsx,*.fsi set filetype=fsharp
 autocmd BufNewFile,BufRead *.kt,*.udin,*.nos set filetype=kotlin
 autocmd BufNewFile,BufRead *.ebnf set filetype=ebnf
+autocmd BufNewFile,BufRead *.s7i,*.sd7 set filetype=seed7
 
 inoremap <silent><expr> <TAB>
   \ pumvisible() ? "\<C-n>" :

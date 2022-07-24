@@ -31,6 +31,10 @@
         "FSharp.ResolveNamespaces": true,
         "FSharp.EnableReferenceCodeLens": true
       }
+    },
+    "vala": {
+      "command": "vala-language-server",
+      "filetypes": ["vala"]
     }
   }
 }

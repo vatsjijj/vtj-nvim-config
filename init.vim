@@ -86,3 +86,4 @@ call plug#end()
 colorscheme iceberg
 let g:lightline = { 'colorscheme': 'icebergDark' }
 set nospell
+set nofoldenable

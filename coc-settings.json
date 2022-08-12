@@ -35,6 +35,10 @@
     "vala": {
       "command": "vala-language-server",
       "filetypes": ["vala"]
+    },
+    "zig": {
+      "command": "zls",
+      "filetypes":["zig"]
     }
   }
 }

@@ -81,6 +81,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'udalov/kotlin-vim'
   Plug 'vim-scripts/ebnf.vim'
   Plug 'vala-lang/vala.vim'
+  Plug 'ziglang/zig.vim'
 call plug#end()
 
 colorscheme iceberg
